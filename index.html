@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>SS Shops </title>
+</head>
+<body>
+    
+      <nav class="navbar">
+        <div class="logo">
+            <h1> SS Shops</h1></div>
+            <ul class="menu">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">Fashion</a></li>
+                <li><a href="">New Arrivals</a></li>
+                <li><a href="">Account</a></li>
+                <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+      
+        <div class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+    <section class="content">
+        <h1>New Arrivals for Men & Women </h1>
+        <p>Get The Best Women Fashion Arrivals</p>
+        <button>Shop Now</button>
+    </section>
+    <h1 class="pheading">Our Lastest Products</h1>
+    <section class="Sec">
+        <div class="Products">
+           <!-- Card Start -->
+            <div class="card">
+                <div class="img">
+                    <img src="6.jpg" alt=""></div>
+                <div class="des">Shoes</div>
+                <div class="title">Sneakers</div>
+                <div class="Box">
+                    <div class="price">$250.99</div>
+                    <button class="btn">Buy Now</button>
+                </div>    
+            </div>
+            <!-- Card end -->
+            <div class="card">
+                <div class="img">
+                    <img src="7.jpg" alt=""></div>
+                <div class="des">Men Watches</div>
+                <div class="title">Titan Watch</div>
+                <div class="Box">
+                    <div class="price">$500.20</div>
+                    <button class="btn">Buy Now</button>
+                </div>    
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="9.jpg" alt=""></div>
+                <div class="des">Laptop</div>
+                <div class="title">Macbook</div>
+                <div class="Box">
+                    <div class="price">$889.00</div>
+                    <button class="btn">Buy Now</button>
+                </div>    
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="8.jpg" alt=""></div>
+                <div class="des">Iphone</div>
+                <div class="title">Iphone 14 Pro Max</div>
+                <div class="Box">
+                    <div class="price">$ 939.95</div>
+                    <button class="btn">Buy Now</button>
+                </div>    
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="10.jpg" alt=""></div>
+                <div class="des">Travel</div>
+                <div class="title">Bag For Traveling</div>
+                <div class="Box">
+                    <div class="price">$100.00</div>
+                    <button class="btn">Buy Now</button>
+                </div>    
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="11.jpg" alt=""></div>
+                <div class="des">Mobile</div>
+                <div class="title">Samsung Galaxy S23 Ultra</div>
+                <div class="Box">
+                    <div class="price">$1,199.99</div>
+                    <button class="btn">Buy Now</button>
+                </div>    
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="12.jpg" alt=""></div>
+                <div class="des">Headphones</div>
+                <div class="title">Sony WH-1000XM5</div>
+                <div class="Box">
+                    <div class="price">$398.00</div>
+                    <button class="btn">Buy Now</button>
+                </div>    
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="13.jpg" alt=""></div>
+                <div class="des">TV</div>
+                <div class="title">Samsung QN95B Neo Qled 4k Smart TV</div>
+                <div class="Box">
+                    <div class="price">$2,297.99</div>
+                    <button class="btn">Buy Now</button>
+                </div>    
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="14.jpg" alt=""></div>
+                <div class="des">Women Wear</div>
+                <div class="title">Lehenga</div>
+                <div class="Box">
+                    <div class="price">$120.00</div>
+                    <button class="btn">Buy Now</button>
+                </div>    
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="15.jpg" alt=""></div>
+                <div class="des">Makeup Kit For Women</div>
+                <div class="title">Cosmetics</div>
+                <div class="Box">
+                    <div class="price">$99.99</div>
+                    <button class="btn">Buy Now</button>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>
+          Copyrights at @ <a href="">SS Shops</a>  
+        </p>
+    </footer>
+    <!-- jquery -->
+    <script>
+        $(".menu-btn").click(function(){
+            $(".navbar .menu").toggleClass("active");
+            $(".menu-btn i").toggleClass("active");
+        });
+    </script>
+</body>
+</html>
